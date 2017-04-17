@@ -1,7 +1,7 @@
 # test coverage for  [csvtojson (v1.1.4)](http://keyangxiang.com/blog/csv2json/)  [![npm package](https://img.shields.io/npm/v/npmtest-csvtojson.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-csvtojson) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-csvtojson.svg)](https://travis-ci.org/npmtest/node-npmtest-csvtojson)
 #### A tool concentrating on converting csv data to JSON with customised parser supporting
 
-[![NPM](https://nodei.co/npm/csvtojson.png?downloads=true)](https://www.npmjs.com/package/csvtojson)
+[![NPM](https://nodei.co/npm/csvtojson.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/csvtojson)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-csvtojson/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-csvtojson/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-csvtojson/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-csvtojson/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-csvtojson/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-csvtojson/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-csvtojson/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-csvtojson/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-csvtojson/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-csvtojson/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-csvtojson%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-csvtojson/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-csvtojson/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-csvtojson/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-csvtojson/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-csvtojson%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-csvtojson/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-csvtojson/build/test-report.html](https://npmtest.github.io/node-npmtest-csvtojson/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-csvtojson/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-csvtojson/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-csvtojson/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-csvtojson/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-csvtojson/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-csvtojson/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-csvtojson/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +33,7 @@
 
 {
     "author": {
-        "name": "Keyang Xiang",
-        "email": "keyang.xiang@gmail.com"
+        "name": "Keyang Xiang"
     },
     "bin": {
         "csvtojson": "./bin/csvtojson"
@@ -39,22 +44,18 @@
     "contributors": [
         {
             "name": "Daniel Cohen",
-            "email": "dcohenb@gmail.com",
             "url": "https://github.com/dcohenb"
         },
         {
             "name": "Trang",
-            "email": "trangtungn@gmail.com",
             "url": "https://github.com/trangtungn"
         },
         {
             "name": "Matthias Lienau",
-            "email": "matthias@mlienau.de",
             "url": "https://github.com/atufkas"
         },
         {
             "name": "Alec Fenichel",
-            "email": "alec.fenichel@gmail.com",
             "url": "https://github.com/fenichelar"
         },
         {
@@ -63,7 +64,6 @@
         },
         {
             "name": "Dimitri Kennedy",
-            "email": "dimitrikennedy@gmail.com",
             "url": "https://github.com/roodboi"
         },
         {
@@ -94,22 +94,18 @@
         },
         {
             "name": "Keyang Xiang",
-            "email": "keyang.xiang@gmail.com",
             "url": "https://github.com/Keyang"
         },
         {
             "name": "Ionică Bizău",
-            "email": "contact@ionicabizau.net",
             "url": "https://github.com/IonicaBizau"
         },
         {
             "name": "Sean Lang",
-            "email": "slang800@gmail.com",
             "url": "https://github.com/slang800"
         },
         {
             "name": "Tom Dodson",
-            "email": "t3.dodson@gmail.com",
             "url": "https://github.com/t3dodson"
         },
         {
@@ -118,7 +114,6 @@
         },
         {
             "name": "Amila Welihinda",
-            "email": "amilajack@gmail.com",
             "url": "https://github.com/amilajack"
         },
         {
@@ -170,13 +165,11 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "keyang",
-            "email": "keyang.xiang@gmail.com"
+            "name": "keyang"
         }
     ],
     "name": "csvtojson",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Keyang/node-csvtojson.git"
